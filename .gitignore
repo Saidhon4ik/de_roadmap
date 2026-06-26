@@ -1,0 +1,33 @@
+# --- Python / uv ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Env / secrets ---
+.env
+.env.*
+*.key
+*.pem
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Docker (stage 6) ---
+*.log
+
+# --- Misc data dumps (keep raw/sample data out of git unless intentional) ---
+*.csv.bak
+*.sqlite3
