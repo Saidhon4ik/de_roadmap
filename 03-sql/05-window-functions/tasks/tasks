@@ -1,0 +1,31 @@
+-- ============================================
+-- TASKS: Window Functions
+-- Table: employees_5000 (id, name, department, salary, hire_date)
+-- ============================================
+
+-- TASK 1: Rank employees by salary within each department
+-- (use ROW_NUMBER, show name, department, salary, rank)
+-- ANSWER:
+
+
+-- TASK 2: Get the top 3 highest paid employees per department
+-- ANSWER:
+
+
+-- TASK 3: For each employee show their salary and
+-- the previous employee salary (ordered by salary ASC)
+-- ANSWER:
+
+
+-- TASK 4: Show each employee's salary and
+-- the average salary of their department in the same row
+-- ANSWER:
+
+
+-- TASK 5: Calculate running total of salaries ordered by hire_date
+-- ANSWER:
+
+
+-- TASK 6: Find employees whose salary is above
+-- their department average (use window function, not subquery)
+-- ANSWER:
