@@ -1,0 +1,34 @@
+-- ============================================
+-- TASKS: JOINs
+-- Table: employees_5000 (id, name, department, salary, hire_date)
+-- Note: using self JOIN — joining table with itself
+-- ============================================
+
+-- TASK 1: Get all pairs of employees from the same department
+-- (show both names and department)
+-- ANSWER:
+
+
+-- TASK 2: Get all pairs where employee A earns more than employee B
+-- in the same department (show both names and both salaries)
+-- ANSWER:
+
+
+-- TASK 3: Count how many colleagues each employee has
+-- in their department (exclude themselves)
+-- ANSWER:
+
+
+-- TASK 4: For each employee, show the highest earner
+-- in their department (show employee name + top earner name + salary)
+-- ANSWER:
+
+
+-- TASK 5: Find employees who earn less than the average salary
+-- of their own department
+-- ANSWER:
+
+
+-- TASK 6: Get top 3 highest paid employees per department
+-- (show name, department, salary)
+-- ANSWER:
