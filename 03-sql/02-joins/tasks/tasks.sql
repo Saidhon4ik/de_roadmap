@@ -54,8 +54,24 @@ LIMIT 100;
 -- TASK 5: Find employees who earn less than the average salary
 -- of their own department
 -- ANSWER:
-
+SELECT a.name, a.department, a.salary
+FROM employees_5000 a
+WHERE a.salary < (
+    SELECT AVG(b.salary)
+    FROM employees_5000 b
+    WHERE b.department = a.department
+)
+ORDER BY a.department
+LIMIT 100;
 
 -- TASK 6: Get top 3 highest paid employees per department
 -- (show name, department, salary)
 -- ANSWER:
+SELECT name, department, salary
+FROM (
+    SELECT name, department, salary,
+           ROW_NUMBER() OVER (PARTITION BY department ORDER BY salary DESC) AS rn
+    FROM employees_5000
+) ranked
+WHERE rn <= 3
+ORDER BY department, salary DESC;
