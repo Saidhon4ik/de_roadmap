@@ -28,11 +28,27 @@ LIMIT 100;
 -- TASK 3: Count how many colleagues each employee has
 -- in their department (exclude themselves)
 -- ANSWER:
-
+select a.name,a.department,count(b.id) as counter1
+from employees_5000 a
+join employees_5000 b on a.department = b.department
+where a.name != b.name
+group by a.name,a.department
+order by a.department
+limit 100;
 
 -- TASK 4: For each employee, show the highest earner
 -- in their department (show employee name + top earner name + salary)
 -- ANSWER:
+SELECT a.name AS employee, b.name AS top_earner, b.salary AS top_salary
+FROM employees_5000 a
+JOIN employees_5000 b ON a.department = b.department
+WHERE b.salary = (
+    SELECT MAX(salary) 
+    FROM employees_5000 c 
+    WHERE c.department = a.department
+)
+ORDER BY a.department
+LIMIT 100;
 
 
 -- TASK 5: Find employees who earn less than the average salary
