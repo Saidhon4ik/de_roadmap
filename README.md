@@ -15,7 +15,7 @@ Source Data → Python → PostgreSQL → dbt → Airflow → BigQuery → Dashb
 
 | # | Stage | Status |
 |---|-------|--------|
-| 1 | Linux — terminal confidence | ⬜ - 🟡 - partial |
+| 1 | Linux — terminal confidence | 🟡 - partial |
 | 2 | Git — version control, teamwork | 🟡 - partial |
 | 3 | SQL — junior-level queries | ✅ - done |
 | 4 | PostgreSQL — database design | ✅ - done |
