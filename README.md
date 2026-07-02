@@ -15,20 +15,20 @@ Source Data → Python → PostgreSQL → dbt → Airflow → BigQuery → Dashb
 
 | # | Stage | Status |
 |---|-------|--------|
-| 1 | Linux — terminal confidence | ⬜ Not started |
-| 2 | Git — version control, teamwork | ⬜ Not started |
-| 3 | SQL — junior-level queries | ⬜ Not started |
-| 4 | PostgreSQL — database design | ⬜ Not started |
-| 5 | Python — ETL scripts | ⬜ Not started |
-| 6 | Docker — containerization | ⬜ Not started |
-| 7 | DWH — data warehouse concepts | ⬜ Not started |
-| 8 | dbt — data transformation | ⬜ Not started |
-| 9 | Airflow — orchestration | ⬜ Not started |
-| 10 | BigQuery — cloud warehouse | ⬜ Not started |
-| 11 | GCP — cloud platform | ⬜ Not started |
-| 12 | Kubernetes — deployment | ⬜ Not started |
-| 13 | Semantic Layer — AtScale/BI layer | ⬜ Not started |
-| 14 | Final Project — full pipeline | ⬜ Not started |
+| 1 | Linux — terminal confidence | ⬜ - 🟡 - partial |
+| 2 | Git — version control, teamwork | 🟡 - partial |
+| 3 | SQL — junior-level queries | ✅ - done |
+| 4 | PostgreSQL — database design | ✅ - done |
+| 5 | Python — ETL scripts | ⬜ - Not started |
+| 6 | Docker — containerization | ⬜ - Not started |
+| 7 | DWH — data warehouse concepts | ⬜ - Not started |
+| 8 | dbt — data transformation | ⬜ - Not started |
+| 9 | Airflow — orchestration | ⬜ - Not started |
+| 10 | BigQuery — cloud warehouse | ⬜ - Not started |
+| 11 | GCP — cloud platform | ⬜ - Not started |
+| 12 | Kubernetes — deployment | ⬜ - Not started |
+| 13 | Semantic Layer — AtScale/BI layer | ⬜ - Not started |
+| 14 | Final Project — full pipeline | ⬜ - Not started |
 
 > Update this table as stages/topics get finished. ✅ = done, 🟡 = partial, 🔵 = in progress, ⬜ = not started.
 
